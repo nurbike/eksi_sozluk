@@ -2,16 +2,27 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 .navbar {
-  position: fixed;
-  padding: 0px 300px;
+  position: absolute;
+  margin: ;
+  border-top: 3px #81c14b solid;
+  border-bottom: 1px solid;
+  width: 100%;
+  height: auto;
+  padding: 20px 0px 10px 0px;
 }
+
 .bottom-nav {
   display: flex;
   justify-content: space-between;
-  padding: 30px;
+  padding: 20px 0px 0px 0px;
+  margin: 0px 300px;
 }
 .menu {
   padding: ;
+ 
+}
+#menu {
+    color:#666666;
 }
 #logo {
   width: 150px;
@@ -29,14 +40,39 @@
 #search-bar {
   display: flex;
   justify-content: center;
+  
+  border: solid 1px; #81c14b;
 }
+#search-button {
+  size: 100px;
+  background-color: #81c14b;
+  color: white;
+}
+
 .top-nav {
   display: flex;
   justify-content: space-between;
+  margin: 0px 300px;
+}
+.olay {
+  background-color: #81c14b;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  color: white;
+}
+#olay {
+  color: white;
+}
+.bugun {
+  display: flex;
+  flex-direction: column;
 }
 .sag-menu {
   display: flex;
   align-items: flex-end;
+
 }
 .bottom-nav {
   display: flex;
@@ -48,7 +84,7 @@
 .content {
   display: flex;
   justify-content: center;
-  padding: 100px 300px;
+  padding: 150px 300px;
 }
 .sol-frame {
   padding: 0px 50px 0px 0px;
@@ -59,4 +95,25 @@
 }
 .title {
   width: 250px;
+}
+
+.entry-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+#yenile {
+  height: 35px;
+}
+
+a {
+  text-decoration: none;
+  color: darkgray;
+}
+.profil-ismi {
+  color: #81c14b;
+}
+.entry-buttons {
+  color: lightgrey;
+  font-size: 20px;
 }

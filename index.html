@@ -3,6 +3,10 @@
   <head>
     <title>Ekşi Sözlük - Kutsal Bilgi Kaynağı</title>
     <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/7316b966ac.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div id="container">
@@ -14,43 +18,68 @@
             </div>
             <div id="search-bar">
               <input type="text" placeholder="başlık,#entry,@yazar" />
+              <i class="fas fa-search" id="search-button"></i>
             </div>
           </div>
           <div class="sag-menu">
-            <div class="ben"><a href="#ben">ben</a>&nbsp; &nbsp; &nbsp;</div>
+            <div class="ben">
+              <i class="fas fa-user"></i> &nbsp;<a href="#ben">ben</a>&nbsp;
+              &nbsp; &nbsp;
+            </div>
             <div class="mesaj">
+              <i class="far fa-comment-alt"></i> &nbsp;
               <a href="#mesaj">mesaj</a>&nbsp; &nbsp; &nbsp;
             </div>
-            <div class="olay"><a href="#olay">olay</a>&nbsp; &nbsp; &nbsp;</div>
+            <div class="olay">
+              <i class="far fa-chart-bar"></i>
+              <a href="#olay" id="olay">olay</a>&nbsp; &nbsp; &nbsp;
+            </div>
             <div class="dropdown-top"></div>
           </div>
         </div>
 
         <div class="bottom-nav">
-          <div class="menu">
-            <a href="#bugun">bugün</a>&nbsp; &nbsp; &nbsp;
-            <a href="#gundem">gündem</a>&nbsp; &nbsp; &nbsp;
-            <a href="#debe">debe</a>&nbsp; &nbsp; &nbsp;
-            <a href="#sorunsallar">sorunsallar</a>&nbsp; &nbsp; &nbsp;
-            <a href="#takip">takip</a>&nbsp; &nbsp; &nbsp;
-            <a href="#son">son</a>&nbsp; &nbsp; &nbsp;
-            <a href="#kenar">kenar</a>&nbsp; &nbsp; &nbsp;
-            <a href="#caylaklar">çaylaklar</a>&nbsp; &nbsp; &nbsp;
-            <a href="#spor">#spor</a>&nbsp; &nbsp; &nbsp;
-            <a href="#iliskiler">#iliskiler</a>&nbsp; &nbsp; &nbsp;
+          <div class="menu" id="menu">
+            <a href="#bugun">bugün</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="#gundem">gündem</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="#debe">debe</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="#sorunsallar">sorunsallar</a>&nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; <a href="#takip">takip</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="#son">son</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="#kenar">kenar</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="#caylaklar">çaylaklar</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="#spor">#spor</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="#iliskiler">#iliskiler</a>&nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp;
             <a href="#siyaset">#siyaset</a>
             <div class="dropdown-bottom"></div>
           </div>
           <div class="pena">
-            &nbsp; &nbsp; &nbsp; <a href="#pena">Pena</a>&nbsp; &nbsp; &nbsp;
-            <a href="#eksiseyler">Ekşi Şeyler</a>
+            &nbsp; &nbsp; &nbsp;
+            <a href="#pena"
+              ><img
+                src="https://img.ekstat.com/profiles/pena-logo-636555019693261217.png"
+                width="30px"
+                ; /></a
+            >&nbsp; &nbsp; &nbsp;
+            <a href="#eksiseyler"
+              ><img
+                src="https://pbs.twimg.com/profile_images/624120947222650880/88kHbOCe.png"
+                width="30px;"
+            /></a>
           </div>
         </div>
       </div>
 
       <div class="content">
         <div class="sol-frame">
-          <div class="bugun"><h1>Bugün</h1></div>
+          <div class="bugun">
+            <h2>bugün</h2>
+            <button type="button" id="yenile">
+              yenile&nbsp; &nbsp;
+              <img src="d:\web-design-nurbike\gorsel\redo.png" width="10px;" />
+            </button>
+          </div>
           <div class="icerik-liste">
             <div class="baslik">
               <div class="title"><p>çay içmek</p></div>
@@ -88,7 +117,7 @@
           <div class="mid">
             <div class="top-mid">
               <div class="entry">
-                <div class="entry-baslik"><h1>Zamanda Yolculuk</h1></div>
+                <div class="entry-baslik"><h1>zamanda yolculuk</h1></div>
                 <div class="entry-body">
                   <p class="entry">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -99,12 +128,24 @@
                     cupidatat non proident, culpa qui officia deserunt mollit
                     anim id est laborum.
                   </p>
-                  <div class="entry-buttons"></div>
+                  <div class="entry-bottom">
+                    <div class="entry-buttons">
+                      <i class="fas fa-angle-up"></i>&nbsp;&nbsp;
+                      <i class="fas fa-angle-down"></i>&nbsp;&nbsp;
+                      <i class="fas fa-tint"></i>
+                    </div>
+                    <div clas="entry-info">
+                      <a href="#entry-page">01.04.2023</a>&nbsp;&nbsp;
+                      <a href="#profile" class="profil-ismi">muza basan kask</a>
+                    </div>
+                  </div>
                 </div>
               </div>
 
               <div class="entry">
-                <div class="entry-baslik"><h1>Zamanda Yolculuk</h1></div>
+                <div class="entry-baslik">
+                  <h1>damada hayır diyen gelin</h1>
+                </div>
                 <div class="entry-body">
                   <p class="entry">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -115,12 +156,24 @@
                     cupidatat non proident, culpa qui officia deserunt mollit
                     anim id est laborum.
                   </p>
-                  <div class="entry-buttons"></div>
+                  <div class="entry-bottom">
+                    <div class="entry-buttons">
+                      <i class="fas fa-angle-up"></i>&nbsp;&nbsp;
+                      <i class="fas fa-angle-down"></i>&nbsp;&nbsp;
+                      <i class="fas fa-tint"></i>
+                    </div>
+                    <div clas="entry-info">
+                      <a href="#entry-page">14.10.2003</a>&nbsp;&nbsp;
+                      <a href="#profile" class="profil-ismi">the one ring</a>
+                    </div>
+                  </div>
                 </div>
               </div>
 
               <div class="entry">
-                <div class="entry-baslik"><h1>Zamanda Yolculuk</h1></div>
+                <div class="entry-baslik">
+                  <h1>geçen gün kamyon sürdüm leonardo da vinci</h1>
+                </div>
                 <div class="entry-body">
                   <p class="entry">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -131,12 +184,24 @@
                     cupidatat non proident, culpa qui officia deserunt mollit
                     anim id est laborum.
                   </p>
-                  <div class="entry-buttons"></div>
+                  <div class="entry-bottom">
+                    <div class="entry-buttons">
+                      <i class="fas fa-angle-up"></i>&nbsp;&nbsp;
+                      <i class="fas fa-angle-down"></i>&nbsp;&nbsp;
+                      <i class="fas fa-tint"></i>
+                    </div>
+                    <div clas="entry-info">
+                      <a href="#entry-page">22.07.2010</a>&nbsp;&nbsp;
+                      <a href="#profile" class="profil-ismi">busblue</a>
+                    </div>
+                  </div>
                 </div>
               </div>
 
               <div class="entry">
-                <div class="entry-baslik"><h1>Zamanda Yolculuk</h1></div>
+                <div class="entry-baslik">
+                  <h1>yaran facebook durum güncellemeleri</h1>
+                </div>
                 <div class="entry-body">
                   <p class="entry">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -147,7 +212,17 @@
                     cupidatat non proident, culpa qui officia deserunt mollit
                     anim id est laborum.
                   </p>
-                  <div class="entry-buttons"></div>
+                  <div class="entry-bottom">
+                    <div class="entry-buttons">
+                      <i class="fas fa-angle-up"></i>&nbsp;&nbsp;
+                      <i class="fas fa-angle-down"></i>&nbsp;&nbsp;
+                      <i class="fas fa-tint"></i>
+                    </div>
+                    <div clas="entry-info">
+                      <a href="#entry-page">06.012.2020</a>&nbsp;&nbsp;
+                      <a href="#profile" class="profil-ismi">italyankokenli</a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
