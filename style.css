@@ -1,0 +1,62 @@
+#container {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  position: fixed;
+  padding: 0px 300px;
+}
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.menu {
+  padding: ;
+}
+#logo {
+  width: 150px;
+  height: auto;
+}
+.logo {
+  max-width: 100%;
+  max-height: 100%;
+}
+.logo-search {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+#search-bar {
+  display: flex;
+  justify-content: center;
+}
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.sag-menu {
+  display: flex;
+  align-items: flex-end;
+}
+.bottom-nav {
+  display: flex;
+}
+.pena {
+  display: flex;
+  align-items: flex-end;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  padding: 100px 300px;
+}
+.sol-frame {
+  padding: 0px 50px 0px 0px;
+}
+.baslik {
+  display: flex;
+  align-items: flex-end;
+}
+.title {
+  width: 250px;
+}
