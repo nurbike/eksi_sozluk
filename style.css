@@ -1,14 +1,17 @@
 #container {
-  font-family: Arial, Helvetica, sans-serif;
 }
+
+.content {
+  font-family: Verdana, sans-serif;
+}
+
 .navbar {
   position: absolute;
-  margin: ;
   border-top: 5px #81c14b solid;
   border-bottom: 1px solid;
   width: 100%;
   height: auto;
-  padding: 20px 0px 10px 0px;
+  padding: 20px 0px 5px 0px;
 }
 
 .bottom-nav {
@@ -22,25 +25,36 @@
   padding: 0 20px 0 20px;
 }
 
+.menu-ic:hover {
+  color: #81c14b;
+  border-bottom: 6px solid #81c14b;
+  padding-bottom: 17px;
+}
+
 .pena-menu {
   padding: 0 20px 0 0;
 }
+
 #menu {
   color: #666666;
 }
+
 #logo {
   width: 150px;
   height: auto;
 }
+
 .logo {
   max-width: 100%;
   max-height: 100%;
 }
+
 .logo-search {
   width: 750px;
   display: flex;
   justify-content: space-between;
 }
+
 #search-bar {
   display: flex;
   justify-content: center;
@@ -67,6 +81,7 @@
   justify-content: space-between;
   margin: 0px 300px;
 }
+
 .olay {
   background-color: #81c14b;
   padding: 10px;
@@ -75,19 +90,24 @@
   border-radius: 8px;
   color: white;
 }
+
 .mesaj {
   padding: 10px;
 }
+
 .ben {
   padding: 10px;
 }
+
 #olay {
   color: white;
 }
+
 .bugun {
   display: flex;
   flex-direction: column;
 }
+
 h2 {
   color: #888888;
 }
@@ -95,38 +115,59 @@ h2 {
   display: flex;
   justify-content: flex-end;
 }
+
 .bottom-nav {
   display: flex;
 }
+
 .pena {
   display: flex;
   align-items: flex-end;
 }
+
 .content {
   display: flex;
   justify-content: center;
   padding: 150px 300px;
 }
+
 .sol-frame {
   padding: 0px 50px 0px 0px;
 }
+
 .baslik {
   display: flex;
   align-items: flex-end;
 }
+
 .title {
   width: 250px;
+  font-size: 14px;
 }
+.title:hover {
+  background-color: #f5f5f5;
+}
+
 .icerik-liste {
   color: #333333;
 }
+
 .count {
   color: #888888;
-}
-h1 {
-  font-size: 23px;
+  font-size: 14px;
 }
 
+h1 {
+  font-size: 22px;
+}
+
+h1:hover {
+  text-decoration: underline;
+}
+
+.entry {
+  font-size: 16px;
+}
 .entry-bottom {
   display: flex;
   justify-content: space-between;
@@ -145,14 +186,11 @@ a {
   transition: 0.2s;
   color: #333333;
 }
-a:hover {
-  color: #81c14b;
-  border-bottom: 6px solid #81c14b;
-  padding-bottom: 21px;
-}
+
 .profil-ismi {
   color: #81c14b;
 }
+
 .entry-buttons {
   color: lightgrey;
   font-size: 20px;
