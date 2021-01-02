@@ -167,17 +167,24 @@ h1:hover {
 
 .entry {
   font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .entry-bottom {
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
+  font-size: 14px;
 }
 
 #yenile {
   height: 35px;
   background-color: white;
   border: 1px solid #888888;
+}
+
+#yenile:hover {
+  background-color: #f5f5f5;
+  color: #81c14b;
 }
 
 a {
